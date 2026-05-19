@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="#00EC00"/> <!-- 按下狀態 -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:angle="90"
+                android:startColor="#2828FF"
+                android:endColor="#EA7500"  />
+        </shape>
+    </item>
+</selector>

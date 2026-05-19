@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 背景圖像 -->
+    <item>
+        <bitmap
+            android:src="@drawable/bg_1"/>
+    </item>
+    <!-- 半透明遮罩层 -->
+    <item>
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#70FFFFFF"/> <!-- 半透明白色 -->
+        </shape>
+    </item>
+</layer-list>
