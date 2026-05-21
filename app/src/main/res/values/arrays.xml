@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="snooze_minutes_entries">
+        <item>1 分鐘</item>
+        <item>2 分鐘</item>
+        <item>3 分鐘</item>
+        <item>4 分鐘</item>
+        <item>5 分鐘</item>
+        <item>6 分鐘</item>
+        <item>7 分鐘</item>
+        <item>8 分鐘</item>
+        <item>9 分鐘</item>
+        <item>10 分鐘</item>
+    </string-array>
+
+    <string-array name="snooze_count_entries">
+        <item>1 次</item>
+        <item>2 次</item>
+        <item>3 次</item>
+        <item>4 次</item>
+        <item>5 次</item>
+        <item>無上限</item>
+    </string-array>
+</resources>

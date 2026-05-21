@@ -11,7 +11,7 @@ import androidx.room.Update
 @Dao
 interface NoteDao {
     @Insert
-    suspend fun insertNote(note: Note)
+    suspend fun insertNote(note: Note): Long
 
     @Update
     suspend fun updateNote(note: Note)
@@ -28,4 +28,6 @@ interface NoteDao {
     @Query("SELECT * FROM notes WHERE id = :userId")
     suspend fun getNoteById(userId: Int): Note?
 
+    @Query("SELECT * FROM notes WHERE isNotificationEnabled = 1")
+    suspend fun getEnabledNotes(): List<Note>
 }
